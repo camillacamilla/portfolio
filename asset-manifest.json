@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/porfolio/static/css/main.cb0571cd.chunk.css",
-    "main.js": "/porfolio/static/js/main.ca060686.chunk.js",
-    "main.js.map": "/porfolio/static/js/main.ca060686.chunk.js.map",
-    "runtime~main.js": "/porfolio/static/js/runtime~main.32baf769.js",
-    "runtime~main.js.map": "/porfolio/static/js/runtime~main.32baf769.js.map",
-    "static/js/2.14afdf4a.chunk.js": "/porfolio/static/js/2.14afdf4a.chunk.js",
-    "static/js/2.14afdf4a.chunk.js.map": "/porfolio/static/js/2.14afdf4a.chunk.js.map",
-    "index.html": "/porfolio/index.html",
-    "precache-manifest.2f75a16c7537733b1003a6f1b264209a.js": "/porfolio/precache-manifest.2f75a16c7537733b1003a6f1b264209a.js",
-    "service-worker.js": "/porfolio/service-worker.js",
-    "static/css/main.cb0571cd.chunk.css.map": "/porfolio/static/css/main.cb0571cd.chunk.css.map",
-    "static/media/camilla.jpeg": "/porfolio/static/media/camilla.519fe5a2.jpeg"
+    "main.css": "/static/css/main.cb0571cd.chunk.css",
+    "main.js": "/static/js/main.931c003c.chunk.js",
+    "main.js.map": "/static/js/main.931c003c.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.13057f11.js",
+    "runtime~main.js.map": "/static/js/runtime~main.13057f11.js.map",
+    "static/js/2.14afdf4a.chunk.js": "/static/js/2.14afdf4a.chunk.js",
+    "static/js/2.14afdf4a.chunk.js.map": "/static/js/2.14afdf4a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f41dd842156c77bfb965d5a343de354d.js": "/precache-manifest.f41dd842156c77bfb965d5a343de354d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.cb0571cd.chunk.css.map": "/static/css/main.cb0571cd.chunk.css.map",
+    "static/media/camilla.jpeg": "/static/media/camilla.519fe5a2.jpeg"
   }
 }
