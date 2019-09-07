@@ -40,7 +40,7 @@ export default function Hero(props) {
             <Grid container spacing={2}>
               <Grid item xs={6}>
                 <Paper elevation='0' className={classes.paper}>
-                <Typography className={classes.title} variant="h2">Camilla Camilla</Typography>
+                <Typography className={classes.title} variant="h2">CamillaCamilla</Typography>
                 <Typography className={classes.title} variant="h5">UX / UI Desinger</Typography>
                   <Typography className={classes.text} variant="body1">Over the last years helping companies to create and reimagine experiences for digital products by researching, discovering, co-creating, prototyping, testing and re-evaluating in an Agile environment.</Typography>
                   <Typography className={classes.text} variant="body1">
