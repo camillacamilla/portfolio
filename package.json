@@ -2,7 +2,7 @@
   "name": "camillacamilla",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://camillacamilla.github.io",
+  "homepage": "https://camillacamilla.github.io/porfolio",
   "dependencies": {
     "@iconify/icons-mdi": "^1.0.10",
     "@iconify/icons-uil": "^1.0.3",
@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
