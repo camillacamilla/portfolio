@@ -30,15 +30,16 @@ export default function Header(props) {
   return (
     <>
       <CssBaseline />
-      <AppBar elevation='0'>
+      <AppBar elevation={0}>
         <Toolbar className={classes.menu}>
           < AnchorLink className={classes.button} href='#sectio1'>UX CASES</AnchorLink>
           < AnchorLink className={classes.button} href='#sectio2'>INTERFACES</AnchorLink>
           < AnchorLink className={classes.button} href='#sectio3'>METHODOLOGIES</AnchorLink>
-          <IconButton className={classes.linkdin} aria-label="Linkdin">
+          <IconButton target='_blank' href="https://www.linkedin.com/in/camillamoura/?locale=en_US" className={classes.linkdin} aria-label="Linkdin">
             <Icon icon={linkedinBox} />
           </IconButton>
         </Toolbar>
       </AppBar>
+      <div id="hero"></div>
     </>)
 }

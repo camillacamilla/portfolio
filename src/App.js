@@ -9,6 +9,10 @@ import Zoom from '@material-ui/core/Zoom';
 import Header from './components/header'
 import './App.css';
 import Hero from './components/hero';
+import SectionOne from './components/section-01';
+import Interfaces from './components/interfaces';
+import Methodologies from './components/methodologies';
+import Footer from './components/footer';
 
 
 
@@ -34,7 +38,7 @@ function ScrollTop(props) {
   });
 
   const handleClick = event => {
-    const anchor = (event.target.ownerDocument || document).querySelector('#sectio1');
+    const anchor = (event.target.ownerDocument || document).querySelector('#hero');
 
     if (anchor) {
       anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -66,8 +70,12 @@ export function Main(props) {
       <CssBaseline />
       <Header />
       <Hero />
+      <SectionOne />
+      <Interfaces />
+      <Methodologies />
+      <Footer />
       <ScrollTop {...props}>
-        <Fab color="secondary" size="small" aria-label="scroll back to top">
+        <Fab size="small" aria-label="scroll back to top">
           <KeyboardArrowUpIcon />
         </Fab>
       </ScrollTop>
