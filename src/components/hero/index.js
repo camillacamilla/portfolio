@@ -17,6 +17,7 @@ import user_test from '../../assets/image/user-test.png'
 import github from '../../assets/image/git.png'
 import workshop from '../../assets/image/workshop_icon.png'
 import invision from '../../assets/image/invision.png'
+import refinamento from '../../assets/image/refinamento.png'
 
 
 const useStyles = makeStyles(theme => ({
@@ -30,7 +31,7 @@ const useStyles = makeStyles(theme => ({
   },
   img:{
     maxWidth: 64,
-    margin: 'auto 25px'
+    margin: 'auto 20px'
   },
   paper: {
     padding: theme.spacing(3, 2),
@@ -82,6 +83,7 @@ export default function Hero(props) {
               <img className={classes.img} alt="html5" src={html5}/>
               <img className={classes.img} alt="css" src={css}/>
               <img className={classes.img} alt="github" src={github}/>
+              <img className={classes.img} alt="refinamento" src={refinamento}/>
               <Typography className={classes.text} variant="body2">Skills as workshop facilitator, develop user flows and wireframes, created prototypes; run user tests and HTML / CSS working knowledge.</Typography>
               </Grid>
             </Grid>
