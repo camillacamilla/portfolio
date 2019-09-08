@@ -10,7 +10,7 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const useStyles = makeStyles(theme => ({
   linkdin: {
-    marginRight: -5,
+    marginRight: -2,
     [theme.breakpoints.up('sm')]: {
       marginRight: -12,
     },
@@ -24,7 +24,7 @@ const useStyles = makeStyles(theme => ({
     margin: theme.spacing(1),
     textDecoration: 'none',
     color: '#4A4A4A',
-    fontSize: 12,
+    fontSize: 8,
     [theme.breakpoints.up('sm')]: {
       fontSize: 16,
       margin: theme.spacing(1),
