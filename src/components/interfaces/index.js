@@ -82,7 +82,7 @@ export default function Interfaces(props) {
 
               <Grid item xs={12}>
                 <Paper elevation={0} xs={12} className={classes.paper}>
-                  <Typography className={classes.title} variant="h5">#02  Interface for a SaaS Startup</Typography>
+                  <Typography className={classes.subtitle} variant="h5">#02  Interface for a SaaS Startup</Typography>
                   <Typography variant="body2">PROJECT: <b>Decision6</b></Typography>
                   <Typography variant="body2">ROLE: <b>UI Designer</b></Typography>
                   <Typography variant="body2">DATE: <b>Outubro 2017</b></Typography>

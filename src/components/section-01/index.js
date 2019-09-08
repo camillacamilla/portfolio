@@ -92,7 +92,7 @@ export default function SectionOne(props) {
 
               <Grid item xs={12}>
                 <Paper elevation={0} xs={12} className={classes.paper}>
-                  <Typography className={classes.title} variant="h5">#02 Increase acquisition with a minor improvement</Typography>
+                  <Typography className={classes.subtitle} variant="h5">#02 Increase acquisition with a minor improvement</Typography>
                   <Typography variant="body2">PROJECT: <b>Nicephotos</b></Typography>
                   <Typography variant="body2">ROLE: <b>UX Designer</b></Typography>
                   <Typography variant="body2">DATE: <b>June 2018</b></Typography>

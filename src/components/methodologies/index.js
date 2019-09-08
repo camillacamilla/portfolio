@@ -87,7 +87,7 @@ export default function Methodologies(props) {
 
               <Grid item xs={12}>
                 <Paper elevation={0} xs={12} className={classes.paper}>
-                  <Typography className={classes.title} variant="h5">#02  User Tests</Typography>
+                  <Typography className={classes.subtitle} variant="h5">#02  User Tests</Typography>
                   <Typography variant="body2">PROJECT: <b>Health insurance website user’s area</b></Typography>
                   <Typography variant="body2">ROLE: <b>Moderator / data visualization</b></Typography>
                   <Typography variant="body2">DATE: <b>May, 2019</b></Typography>
