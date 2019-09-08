@@ -58,7 +58,7 @@ export default function SectionOne(props) {
                   <Typography variant="body2">ROLE: <b>UX UI Senior Designer</b></Typography>
                   <Typography variant="body2">DATE: <b>April 2019</b></Typography>
                   <Typography variant="body2">WEBSITE: <a target='__blank' className={classes.link}href="https://www.bradescoseguros.com.br">www.bradescoseguros.com.br</a></Typography>
-                  <Typography variant="body2">PROTOTYPE: <a className={classes.link} target="_blank" href="https://projects.invisionapp.com/share/DZTOPHCX3JW#/screens/373432895">https://projects.invisionapp.com/share/DZTOPHCX3JW#/screens/373432895</a></Typography>
+                  <Typography variant="body2">PROTOTYPE: <a className={classes.link} target="_blank" href="https://projects.invisionapp.com/share/DZTOPHCX3JW#/screens/373432895">at Invision</a></Typography>
                   <Typography variant="body2">THE CHALLENGE: Develop the health insurance website's user area considering an omni-channel experience focuses on each customer interaction and their overall experience with the products and brand Bradesco Seguros, the largest insurance company in Latin America.
                   </Typography>
 
