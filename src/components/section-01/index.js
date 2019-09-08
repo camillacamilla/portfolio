@@ -32,9 +32,22 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: '#FFFAF7',
     color: '#4A4A4A'
   },
-  title:{
+  title: {
     fontWeight: 800,
-    padding: theme.spacing(4, 0)
+    padding: theme.spacing(1, 0),
+    fontSize: 32,
+    [theme.breakpoints.up('sm')]: {
+      padding: theme.spacing(4, 0),
+      fontSize: 52,
+    },
+  },
+  subtitle: {
+    fontWeight: 800,
+    padding: theme.spacing(1, 0),
+    fontSize: 18,
+    [theme.breakpoints.up('sm')]: {
+      padding: theme.spacing(4, 0),
+    },
   },
   text:{
     padding: theme.spacing(2, 0)
@@ -53,7 +66,7 @@ export default function SectionOne(props) {
               <Grid item xs={12}>
                 <Paper elevation={0} xs={12} className={classes.paper}>
                   <Typography className={classes.title} component="h1" variant="h3">UX Cases</Typography>
-                  <Typography className={classes.title} variant="h5">#01 Disruptive experiences in an Agile environment</Typography>
+                  <Typography className={classes.subtitle} variant="h5">#01 Disruptive experiences in an Agile environment</Typography>
                   <Typography variant="body2">PROJECT: <b>Health insurance website user’s area</b></Typography>
                   <Typography variant="body2">ROLE: <b>UX UI Senior Designer</b></Typography>
                   <Typography variant="body2">DATE: <b>April 2019</b></Typography>

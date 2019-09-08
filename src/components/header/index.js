@@ -24,7 +24,7 @@ const useStyles = makeStyles(theme => ({
     margin: theme.spacing(1),
     textDecoration: 'none',
     color: '#4A4A4A',
-    fontSize: 8,
+    fontSize: 7,
     [theme.breakpoints.up('sm')]: {
       fontSize: 16,
       margin: theme.spacing(1),

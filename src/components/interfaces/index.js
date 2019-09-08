@@ -30,9 +30,22 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: '#FFFAF7',
     color: '#4A4A4A'
   },
-  title:{
+  title: {
     fontWeight: 800,
-    padding: theme.spacing(4, 0)
+    padding: theme.spacing(1, 0),
+    fontSize: 32,
+    [theme.breakpoints.up('sm')]: {
+      padding: theme.spacing(4, 0),
+      fontSize: 52,
+    },
+  },
+  subtitle: {
+    fontWeight: 800,
+    padding: theme.spacing(1, 0),
+    fontSize: 18,
+    [theme.breakpoints.up('sm')]: {
+      padding: theme.spacing(4, 0),
+    },
   },
   text:{
     padding: theme.spacing(2, 0)
@@ -51,7 +64,7 @@ export default function Interfaces(props) {
               <Grid item xs={12}>
                 <Paper elevation={0} xs={12} className={classes.paper}>
                   <Typography className={classes.title} component="h1" variant="h3">Interfaces</Typography>
-                  <Typography className={classes.title} variant="h5">#01  Interfaces for a SaaS Startup</Typography>
+                  <Typography className={classes.subtitle} variant="h5">#01  Interfaces for a SaaS Startup</Typography>
                   <Typography variant="body2">PROJECT: <b>321COMM</b></Typography>
                   <Typography variant="body2">ROLE: <b>UI Designer</b></Typography>
                   <Typography variant="body2">DATE: <b>December, 2017</b></Typography>

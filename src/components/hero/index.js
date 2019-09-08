@@ -44,7 +44,20 @@ const useStyles = makeStyles(theme => ({
   },
   title: {
     fontWeight: 800,
-    padding: theme.spacing(4, 0)
+    padding: theme.spacing(1, 0),
+    fontSize: 32,
+    [theme.breakpoints.up('sm')]: {
+      padding: theme.spacing(4, 0),
+      fontSize: 52,
+    },
+  },
+  subtitle: {
+    fontWeight: 800,
+    padding: theme.spacing(1, 0),
+    fontSize: 22,
+    [theme.breakpoints.up('sm')]: {
+      padding: theme.spacing(4, 0),
+    },
   },
   text: {
     padding: theme.spacing(2, 0)
@@ -63,7 +76,7 @@ export default function Hero(props) {
               <Grid item xs={12} sm={6}>
                 <Paper xs={12} sm={6} elevation={0} className={classes.paper}>
                   <Typography className={classes.title} component="h1" variant="h3">CamillaCamilla</Typography>
-                  <Typography className={classes.title} variant="h5">UX / UI Desinger</Typography>
+                  <Typography className={classes.subtitle} variant="h5">UX / UI Desinger</Typography>
                   <Typography className={classes.text} variant="body1">Over the last years helping companies to create and reimagine experiences for digital products by researching, discovering, co-creating, prototyping, testing and re-evaluating in an Agile environment.</Typography>
                   <Typography className={classes.text} variant="body1">
                     I am Camilla Sun-born, First of Her Name, Queen of the Karaoke, Breaker of Bad Flows and Unhelpful Wireframes, Mother of Prototypes and User Tests.</Typography>

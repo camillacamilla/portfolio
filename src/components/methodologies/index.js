@@ -33,7 +33,20 @@ const useStyles = makeStyles(theme => ({
   },
   title: {
     fontWeight: 800,
-    padding: theme.spacing(4, 0)
+    padding: theme.spacing(1, 0),
+    fontSize: 32,
+    [theme.breakpoints.up('sm')]: {
+      padding: theme.spacing(4, 0),
+      fontSize: 52,
+    },
+  },
+  subtitle: {
+    fontWeight: 800,
+    padding: theme.spacing(1, 0),
+    fontSize: 18,
+    [theme.breakpoints.up('sm')]: {
+      padding: theme.spacing(4, 0),
+    },
   },
   text: {
     padding: theme.spacing(2, 0)
@@ -56,7 +69,7 @@ export default function Methodologies(props) {
               <Grid item xs={12}>
                 <Paper elevation={0} xs={12} className={classes.paper}>
                   <Typography className={classes.title} component="h2" variant="h4">Methodologies</Typography>
-                  <Typography className={classes.title} variant="h5">#01  Workshops</Typography>
+                  <Typography className={classes.subtitle} variant="h5">#01  Workshops</Typography>
                   <Typography variant="body2">PROJECT: <b>Health insurance website user’s area</b></Typography>
                   <Typography variant="body2">ROLE: <b>Facilitator</b></Typography>
                   <Typography variant="body2">DATE: <b>April, 2019</b></Typography>
