@@ -4,9 +4,7 @@
   "private": true,
   "homepage": "https://camillacamilla.github.io/portfolio/",
   "dependencies": {
-    "@iconify/icons-mdi": "^1.0.10",
     "@iconify/icons-uil": "^1.0.3",
-    "@iconify/react": "^1.1.1",
     "@material-ui/core": "^4.4.0",
     "@material-ui/icons": "^4.2.1",
     "gh-pages": "^2.1.1",
@@ -38,5 +36,8 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@iconify/icons-mdi": "^1.0.10",
+    "@iconify/react": "^1.1.1"
+  }
 }

@@ -15,6 +15,7 @@ import html5 from '../../assets/image/html.png'
 import css from '../../assets/image/css.png'
 import user_test from '../../assets/image/user-test.png'
 import github from '../../assets/image/git.png'
+import workshop from '../../assets/image/workshop_icon.png'
 import invision from '../../assets/image/invision.png'
 
 
@@ -29,7 +30,7 @@ const useStyles = makeStyles(theme => ({
   },
   img:{
     maxWidth: 64,
-    margin: 'auto 30px'
+    margin: 'auto 25px'
   },
   paper: {
     padding: theme.spacing(3, 2),
@@ -70,15 +71,16 @@ export default function Hero(props) {
               </Grid>
               <Grid item xs={12} sm={12} lg={12}>
               <Typography className={classes.title} variant="h5">Desinger Tookit</Typography>
-              <img className={classes.img} alt="photoshop" src={photoshop}/>
-              <img className={classes.img} alt="XD" src={xd}/>
-              <img className={classes.img} alt="invision" src={invision}/>
+              <img className={classes.img} alt="workshop" src={workshop}/>
+              <img className={classes.img} alt="axure" src={axure}/>
               <img className={classes.img} alt="sketch" src={sketch}/>
-              <img className={classes.img} alt="zeplin" src={zeplin}/>
+              <img className={classes.img} alt="XD" src={xd}/>
+              <img className={classes.img} alt="photoshop" src={photoshop}/>
+              <img className={classes.img} alt="invision" src={invision}/>
               <img className={classes.img} alt="user_test" src={user_test}/>
+              <img className={classes.img} alt="zeplin" src={zeplin}/>
               <img className={classes.img} alt="html5" src={html5}/>
               <img className={classes.img} alt="css" src={css}/>
-              <img className={classes.img} alt="axure" src={axure}/>
               <img className={classes.img} alt="github" src={github}/>
               <Typography className={classes.text} variant="body2">Skills as workshop facilitator, develop user flows and wireframes, created prototypes; run user tests and HTML / CSS working knowledge.</Typography>
               </Grid>
