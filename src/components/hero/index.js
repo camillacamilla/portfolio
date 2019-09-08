@@ -33,7 +33,7 @@ const useStyles = makeStyles(theme => ({
     maxWidth: 20,
     margin: 'auto 5px',
     [theme.breakpoints.up('sm')]: {
-      maxWidth: 64,
+      maxWidth: 62,
       margin: 'auto 20px',
     },
   },
