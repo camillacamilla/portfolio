@@ -88,6 +88,7 @@ export default function Hero(props) {
                 </Paper>
               </Grid>
               <Grid item xs={12} sm={12} lg={12}>
+              <Paper xs={12} elevation={0} className={classes.paper}>
                 <Typography className={classes.title} component="h1" variant="h3">Designer Tookit</Typography>
                 <img className={classes.img} alt="workshop" src={workshop} />
                 <img className={classes.img} alt="axure" src={axure} />
@@ -102,6 +103,7 @@ export default function Hero(props) {
                 <img className={classes.img} alt="github" src={github} />
                 <img className={classes.img} alt="refinamento" src={refinamento} />
                 <Typography className={classes.text} variant="body2">Skills as workshop facilitator, develop user flows and wireframes, prototypes creator; user tests moderator; with HTML / CSS working knowledge.</Typography>
+                </Paper>
               </Grid>
             </Grid>
 
