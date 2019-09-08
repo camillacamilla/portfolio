@@ -6,21 +6,31 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Icon } from '@iconify/react';
 import linkedinBox from '@iconify/icons-mdi/linkedin-box';
 import behanceIcon from '@iconify/icons-mdi/behance';
-
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const useStyles = makeStyles(theme => ({
   linkdin: {
-    marginRight: -12,
+    marginRight: -5,
+    [theme.breakpoints.up('sm')]: {
+      marginRight: -12,
+    },
 
   },
-  behance:{
+  behance: {
     marginLeft: 'auto',
     marginRight: 0,
-},
+  },
   button: {
     margin: theme.spacing(1),
     textDecoration: 'none',
-    color: '#4A4A4A'
+    color: '#4A4A4A',
+    fontSize: 12,
+    [theme.breakpoints.up('sm')]: {
+      fontSize: 16,
+      margin: theme.spacing(1),
+      textDecoration: 'none',
+      color: '#4A4A4A',
+    },
   },
   menu: {
     backgroundColor: '#FFFAF7'
@@ -41,7 +51,7 @@ export default function Header(props) {
           < AnchorLink className={classes.button} href='#sectio3'>METHODOLOGIES</AnchorLink>
 
           <IconButton target='_blank' href="https://www.behance.net/CamillaCamilla" className={classes.behance} aria-label="behance">
-          <Icon icon={behanceIcon} />
+            <Icon icon={behanceIcon} />
           </IconButton>
           <IconButton target='_blank' href="https://www.linkedin.com/in/camillamoura/?locale=en_US" className={classes.linkdin} aria-label="Linkdin">
             <Icon icon={linkedinBox} />

@@ -22,9 +22,13 @@ const useStyles = makeStyles(theme => ({
     margin: 5
   },
   paper: {
-    padding: theme.spacing(0, 15),
+    padding: theme.spacing(0, 5),
     backgroundColor: '#4A4A4A',
-    color: '#FFFAF7'
+    color: '#FFFAF7',
+    [theme.breakpoints.up('sm')]: {
+      padding: theme.spacing(0, 15),
+    },
+
   },
   title: {
     padding: theme.spacing(4, 0)
