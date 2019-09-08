@@ -94,9 +94,6 @@ export default function Methodologies(props) {
                   <Typography variant="body2">THE CHALLENGE: Decision6 is a storefront people flow analysis service that generates insights for market intelligence through a unique platform with intuitive dashboards.
                   </Typography>
 
-                  <Typography className={classes.text} variant="body2">
-                    THE CHALLENGE: Find out if the proposed hypothesis makes the task easier for the user to perform actions such as changing password, email. In addition to check if switching between holder and dependent is intuitive.
-                  </Typography>
                   <Typography variant="body2">For the application of the tests we used the internal public, and the planning was lined to fit in 01 sprint, since the recruitment, consolidation and implementation of the results. Usability testing in context moderated by UX Designers.  For this test we recruited a group of people (24-46 years old), with different levels of affinity with technology, as well as various health plans. The sample profiles were crossed with personas designed to assess consistency of behaviors at the specific moment of the experiment, in accordance with the V.U.C.A. * concept.
                   </Typography>
                   <Typography className={classes.text} variant="body2">Test Application:</Typography>
