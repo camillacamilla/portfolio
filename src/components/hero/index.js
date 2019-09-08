@@ -76,10 +76,10 @@ export default function Hero(props) {
               <Grid item xs={12} sm={6}>
                 <Paper xs={12} sm={6} elevation={0} className={classes.paper}>
                   <Typography className={classes.title} component="h1" variant="h3">CamillaCamilla</Typography>
-                  <Typography className={classes.subtitle} variant="h5">UX / UI Desinger</Typography>
-                  <Typography className={classes.text} variant="body1">Over the last years helping companies to create and reimagine experiences for digital products by researching, discovering, co-creating, prototyping, testing and re-evaluating in an Agile environment.</Typography>
+                  <Typography className={classes.subtitle} variant="h5">UX / UI Designer</Typography>
+                  <Typography className={classes.text} variant="body1">Over the last years helping companies to create and reimagine experiences for digital products by researching, discovering, co-creating, prototyping and testing in an Agile environment.</Typography>
                   <Typography className={classes.text} variant="body1">
-                    I am Camilla Sun-born, First of Her Name, Queen of the Karaoke, Breaker of Bad Flows and Unhelpful Wireframes, Mother of Prototypes and User Tests.</Typography>
+                    I am CamillaCamilla Sun-born, First of Her Name, Queen of the Karaoke, Breaker of Bad Flows and Unhelpful Wireframes, Mother of Prototypes and User Tests.</Typography>
                 </Paper>
               </Grid>
               <Grid item xs={12} sm={6}>
@@ -88,7 +88,7 @@ export default function Hero(props) {
                 </Paper>
               </Grid>
               <Grid item xs={12} sm={12} lg={12}>
-                <Typography className={classes.title} variant="h5">Desinger Tookit</Typography>
+                <Typography className={classes.title} component="h1" variant="h3">Designer Tookit</Typography>
                 <img className={classes.img} alt="workshop" src={workshop} />
                 <img className={classes.img} alt="axure" src={axure} />
                 <img className={classes.img} alt="sketch" src={sketch} />
@@ -101,7 +101,7 @@ export default function Hero(props) {
                 <img className={classes.img} alt="css" src={css} />
                 <img className={classes.img} alt="github" src={github} />
                 <img className={classes.img} alt="refinamento" src={refinamento} />
-                <Typography className={classes.text} variant="body2">Skills as workshop facilitator, develop user flows and wireframes, created prototypes; run user tests and HTML / CSS working knowledge.</Typography>
+                <Typography className={classes.text} variant="body2">Skills as workshop facilitator, develop user flows and wireframes, prototypes creator; user tests moderator; with HTML / CSS working knowledge.</Typography>
               </Grid>
             </Grid>
 
