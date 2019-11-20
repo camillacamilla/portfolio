@@ -10,6 +10,7 @@ import image2 from '../../assets/image/bs-mobile-2.png'
 
 import nicephotos from '../../assets/image/nicephotos.png'
 import heatmap from '../../assets/image/heatmap.png'
+import { typography } from '@material-ui/system';
 
 
 const useStyles = makeStyles(theme => ({
@@ -92,17 +93,24 @@ export default function SectionOne(props) {
 
               <Grid item xs={12}>
                 <Paper elevation={0} xs={12} className={classes.paper}>
-                  <Typography className={classes.subtitle} variant="h5">#02 Increase acquisition with a minor improvement</Typography>
+                  <Typography className={classes.subtitle} variant="h5">#02 Data driven redesign for an upselling page</Typography>
                   <Typography variant="body2">PROJECT: <b>Nicephotos</b></Typography>
                   <Typography variant="body2">ROLE: <b>UX Designer</b></Typography>
                   <Typography variant="body2">DATE: <b>June 2018</b></Typography>
                   <Typography variant="body2">WEBSITE: <a className={classes.link}href="www.nicephotos.com.br">www.nicephotos.com.br</a></Typography>
-                  <Typography variant="body2">THE CHALLENGE: Nicephotos is in the top 3 largest e-commerce solutions for imaging. The best selling product is photo development. The site is a complex html4-based online sales service, in parallel to the html5 migration project, we prioritize the best-selling product landing pages to initiate user experience improvements.
+                  <Typography variant="body2">SUMMARY: Nicephotos is in the top 3 largest e-commerce in Brazil over photo print and solutions for imaging. The website was a html4-based online sales service, at the time a html5 migration project requested a lot from the developers. In meantime the innovation team had a hypose that by prioritizing the user experience improvements over the landing pages might increase the sales without overloading the development team</Typography>
+                  <Typography variant="body2">THE GOAL: Increase the average ticket value over upselling pages.</Typography>
+                  <Typography variant="body2">THE CHALLENGE: Improve the upselling pages performance by:keeping the current product informations; Keeping the current user journey; No back-end changes;</Typography>
+                  <Typography variant="body2">METHODOLOGIES AND TOOLS: Heuristic analysis | Benchmarking | Usability test | S.U.S. | A/B test</Typography>
+                  <Typography className={classes.text} variant="body2">xThe heuristic analysis that highlighted low scores at consistency and standards, aesthetic and minimalist design. Then by checking de Google Analytics data and it crossing with the scrollmap result was clear that the purchase CTA was the main pain point. Users had to scroll down a long page in order to complete their purchase. The first point of attention to be improved was purchase CTA, as it was located at the coldest area of the heatmap. </Typography>
+                  <Typography className={classes.text} variant="body2">All these rich data generate insights to new features to be improved. The prototype developed had all the features that had a minor impact for the development team. A remote usability test was applied with select 5 clients, using lives at Invision. After adjustments according to the results the final version for a new upselling page was developed. The final step was an A / B testing to evaluate the performance of the new proposal against the original one.
                   </Typography>
-
+                  <Typography className={classes.text} variant="body2">RESULTS: The new Information Architecture for building semantic html. The heating map indicated that the new CTA got more interactions than the original one. Conversion rate increased by 132%. 74% had upselled their purchase. Created new reusable components. Created new customized template for upselling pages.</Typography>
                   <Typography className={classes.text} variant="body2">
                   The first point of attention to be improved was purchase CTA, as it was located in the coldest area of the heat map. Through ux research, data analysis and surveys with users, Nicephotos owners and collaborators we collect rich data that generate  insights to prioritization the features to be improved. By running a Design Sprint the squad was able to develop a design solution with a minor impact over the website structure. An A / B test with the proposed template for upsell page had such a good performance that impact the global sales by increasing it on 8% over the last month. This positive result turned the proposal into a new interface template for all upsell pages.
                   </Typography>
+                  <Typography className={classes.text} variant="body2">CONCLUSION: As the design solution was focus on solving usability issues by reviewing the information hierarchy and semantic html the squad was able to code and implement the solution with a minor impact over the page structure. The new features such as new CTA, and new title, description styles created reusable components in order to compose a template page that attends the business demand.  </Typography>
+                  <Typography></Typography>
                 </Paper>
               </Grid>
               <Grid item xs={12}>
