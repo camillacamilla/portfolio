@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9f7801e4.chunk.css",
+    "main.js": "/portfolio/static/js/main.a02189b1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a02189b1.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.2af0308f.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.2af0308f.js.map",
+    "static/js/2.2c2ef11d.chunk.js": "/portfolio/static/js/2.2c2ef11d.chunk.js",
+    "static/js/2.2c2ef11d.chunk.js.map": "/portfolio/static/js/2.2c2ef11d.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.d3ba9d20a0d66fae03e91b9be2ddeeed.js": "/portfolio/precache-manifest.d3ba9d20a0d66fae03e91b9be2ddeeed.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.9f7801e4.chunk.css.map": "/portfolio/static/css/main.9f7801e4.chunk.css.map",
+    "static/media/321comm.png": "/portfolio/static/media/321comm.dac53250.png",
+    "static/media/bs-mobile-2.png": "/portfolio/static/media/bs-mobile-2.ee89c559.png",
+    "static/media/bs-mobile.png": "/portfolio/static/media/bs-mobile.662fef51.png",
+    "static/media/camilla.jpeg": "/portfolio/static/media/camilla.519fe5a2.jpeg",
+    "static/media/camillacamilla.png": "/portfolio/static/media/camillacamilla.4bed2c69.png",
+    "static/media/decision6.png": "/portfolio/static/media/decision6.2e8f6c8d.png",
+    "static/media/heatmap.png": "/portfolio/static/media/heatmap.58f4ef1a.png",
+    "static/media/nicephotos.png": "/portfolio/static/media/nicephotos.af250cb3.png",
+    "static/media/photoshop.svg": "/portfolio/static/media/photoshop.ba0eb3f7.svg",
+    "static/media/usertest.png": "/portfolio/static/media/usertest.55d930f4.png",
+    "static/media/workshop.png": "/portfolio/static/media/workshop.8881025c.png"
+  }
+}
